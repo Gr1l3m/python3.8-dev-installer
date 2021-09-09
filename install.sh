@@ -2,31 +2,31 @@
 
 echo “Python 3.8 dev installer”
 
-echo "lib minimal"
+echo "1- lib minimal"
 wget http://ports.ubuntu.com/pool/universe/p/python3.8/libpython3.8-minimal_3.8.0-3~18.04.1_arm64.deb
 sudo dpkg -i libpython3.8-minimal_3.8.0-3~18.04.1_arm64.deb
 
-echo "python minimal"
+echo "2- python minimal"
 wget http://ports.ubuntu.com/pool/universe/p/python3.8/python3.8-minimal_3.8.0-3~18.04.1_arm64.deb
 sudo dpkg -i python3.8-minimal_3.8.0-3~18.04.1_arm64.deb
 
-echo "lib stdlib"
+echo "3- lib stdlib"
 wget http://ports.ubuntu.com/pool/universe/p/python3.8/libpython3.8-stdlib_3.8.0-3~18.04.1_arm64.deb
 sudo dpkg -i libpython3.8-stdlib_3.8.0-3~18.04.1_arm64.deb
 
-echo "python"
+echo "4- python"
 wget http://ports.ubuntu.com/pool/universe/p/python3.8/python3.8_3.8.0-3~18.04.1_arm64.deb
 sudo dpkg -i python3.8_3.8.0-3~18.04.1_arm64.deb
 
-echo "lib python"
+echo "5- lib python"
 wget http://ports.ubuntu.com/pool/universe/p/python3.8/libpython3.8_3.8.0-3~18.04.1_arm64.deb
 sudo dpkg -i libpython3.8_3.8.0-3~18.04.1_arm64.deb
 
-echo "lib dev"
+echo "6- lib dev"
 wget http://ports.ubuntu.com/pool/universe/p/python3.8/libpython3.8-dev_3.8.0-3~18.04.1_arm64.deb
 sudo dpkg -i libpython3.8-dev_3.8.0-3~18.04.1_arm64.deb
 
-echo "python dev"
+echo "7- python dev"
 wget http://ports.ubuntu.com/pool/universe/p/python3.8/python3.8-dev_3.8.0-3~18.04.1_arm64.deb
 sudo dpkg -i python3.8-dev_3.8.0-3~18.04.1_arm64.deb
 
